@@ -1,49 +1,36 @@
-Projet Éducatif pour Enfants (4-8 ans) 🧒🎓
 
-Ce projet vise à développer une application éducative interactive pour les enfants âgés de 4 à 8 ans, en combinant technologies modernes et intelligence artificielle. L'objectif principal est de générer des exercices adaptés au niveau de chaque enfant, en s'appuyant sur leurs performances passées, afin de stimuler leur apprentissage dans des domaines variés comme les mathématiques , et les langues française et anglaise.
+## 1. Build and Deploy a Docker Image for a Streamlit App
 
-🌟 Fonctionnalités
-Génération Dynamique de Questions : Utilisation de l'API OpenAI pour produire des questions personnalisées basées sur l'âge, les résultats passés et le niveau de performance.
-Explications Adaptées aux Enfants : Fournir des explications simples et conviviales pour faciliter l'apprentissage.
-Sauvegarde des Performances : Stockage des données des utilisateurs localement pour ajuster les questions aux progrès de chaque enfant.
-Chatbot Intelligent : Intégration d'un chatbot interactif :
-Pour les enfants : Répond aux questions, propose des conseils et motive les utilisateurs à progresser dans leur apprentissage.
-Pour les enseignants : Fournit une assistance pédagogique, génère des suggestions pour améliorer les performances des élèves et propose des rapports détaillés.
-🔧 Technologies Utilisées
-Voici les technologies que nous avons intégrées pour le développement :
+The goal of this session is to create a "Hello World" Streamlit interface that will be deployed on GCP.
+The first step is to create a Docker image that will contain the Streamlit application. You need to have Docker installed on your machine.
 
-Unity : Moteur de jeu utilisé pour créer l'interface utilisateur et les interactions.
-Python & Jupyter : Création du ChatBot.
-Docker : Conteneurisation pour simplifier le déploiement et la gestion des dépendances.
-API OpenAI : Génération de contenu éducatif interactif en utilisant GPT-4 pour les questions et le chatbot.
-🚀 Installation et Exécution
-Prérequis
-Docker installé sur votre machine.
-Unity configuré pour exécuter le projet.
-Une clé API valide pour OpenAI (stockée dans un fichier .env).
-Étapes :
-Clonez ce dépôt :
+### 1.1 Local Testing
 
-bash
-Copier le code
-git clone https://github.com/votre-utilisateur/nom-du-projet.git  
-cd nom-du-projet  
-Configurez vos clés API dans un fichier .env :
+**A. Create and Test the Streamlit App Locally**
 
-plaintext
-Copier le code
-OPENAI_API_KEY=VotreCléAPI  
-Lancez le conteneur Docker :
 
-bash
-Copier le code
-docker-compose up  
-Importez le projet dans Unity et lancez-le pour tester l'application.
 
-💬 Fonctionnement du Chatbot
-Accès pour les enfants : Depuis l'application Unity, les enfants peuvent poser des questions simples ou demander des conseils directement au chatbot, qui répond dans un langage adapté à leur âge.
-Accès pour les enseignants : Une interface dédiée permet aux enseignants d'interagir avec le chatbot pour analyser les performances des enfants et recevoir des recommandations éducatives.
-💡 Auteurs
-[Nom de l'équipe ou des contributeurs]
-📄 Licence
-Ce projet est sous licence [Nom de la Licence]. Consultez le fichier LICENSE pour plus d'informations.
+```bash
+streamlit run app.py
+# Open the URL given in localhost
+```
+
+**D. Build the Docker Image**
+
+Open and edit the `Dockerfile` as required to match the port exposed below. We create a Docker image that will contain the Streamlit app. The Dockerfile is already created in the root folder. Refer to the `docker build` and `docker run` documentation. We use Docker because it is mandatory to deploy an app on GCP.
+
+```bash
+docker build -t streamlit:educ .
+docker run --name my_container -p 8501:8501 streamlit:educ
+# Open the URL given
+```
+
+Once it works, you can use the following commands:
+
+```bash
+docker stop my_container
+docker rm <my_container>
+# Then you can rerun docker run -p 8080:8080 streamlit:latest without any problems
+# If you have an "already in use" error, do the previous steps before rerunning
+```
+
