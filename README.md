@@ -1,4 +1,5 @@
 Projet Éducatif pour Enfants (4-8 ans) 🧒🎓
+
 Ce projet vise à développer une application éducative interactive pour les enfants âgés de 4 à 8 ans, en combinant technologies modernes et intelligence artificielle. L'objectif principal est de générer des exercices adaptés au niveau de chaque enfant, en s'appuyant sur leurs performances passées, afin de stimuler leur apprentissage dans des domaines variés comme les mathématiques , et les langues française et anglaise.
 
 🌟 Fonctionnalités
