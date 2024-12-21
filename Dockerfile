@@ -15,4 +15,6 @@ EXPOSE ${PORT}
 
 COPY . ./app
 
+COPY ./data /app/data
+
 ENTRYPOINT streamlit run --server.port $PORT app/app.py --server.address=0.0.0.0
