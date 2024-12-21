@@ -21,7 +21,7 @@ Open and edit the `Dockerfile` as required to match the port exposed below. We c
 
 ```bash
 docker build -t streamlit:educ .
-docker run --name my_container -p 8501:8501 streamlit:educ
+docker run --name my_container -p 8502:8501 streamlit:educ
 # Open the URL given
 ```
 
