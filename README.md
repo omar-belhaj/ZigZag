@@ -21,15 +21,15 @@ Open and edit the `Dockerfile` as required to match the port exposed below. We c
 
 ```bash
 docker build -t streamlit:educ .
-docker run --name my_container -p 8502:8501 streamlit:educ
+docker run --name zigzag_chatbot -p 8502:8501 streamlit:educ
 # Open the URL given
 ```
 
 Once it works, you can use the following commands:
 
 ```bash
-docker stop my_container
-docker rm <my_container>
+docker stop zigzag_chatbot
+docker rm <zigzag_chatbot>
 # Then you can rerun docker run -p 8080:8080 streamlit:latest without any problems
 # If you have an "already in use" error, do the previous steps before rerunning
 ```
