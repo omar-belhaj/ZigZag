@@ -17,6 +17,9 @@ import wikipediaapi
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+# Liste d'apprenants prédéfinie (exemple)
+apprenants = ['Alice', 'Bob', 'Clara', 'David', 'Eva']
+
 # Charger et indexer les documents avec un cache pour améliorer la performance
 @st.cache_resource
 def load_and_process_documents(filename: str):
@@ -58,14 +61,15 @@ def format_docs(docs: List):
     return "\n\n".join(doc.page_content for doc in docs)
 
 # Fonction principale pour interroger le modèle GPT-4
-def query_with_external_knowledge(query: str, top_k: int = 3, temperature=0.0, max_tokens=150):
-    vectorstore = load_and_process_documents("../data/contes_math_jeux.txt")
+def query_with_external_knowledge(query: str, user_info: dict, top_k: int = 3, temperature=0.0, max_tokens=150):
+    vectorstore = load_and_process_documents("./data/contes_math_jeux.txt")
     docs_relevant = vectorstore.similarity_search(query, k=top_k)
     external_info = search_external_knowledge(query)
 
+    # Personnaliser le prompt en fonction des informations de l'utilisateur
     prompt = ChatPromptTemplate.from_messages([
-        ("system", "Tu es un assistant super sympa qui aide les enfants à comprendre des choses et répondre à leurs questions. Tu utilises des informations provenant de livres et d'Internet pour donner les meilleures réponses."),
-        ("user", f"Voici quelques informations qui pourraient t'aider : {format_docs(docs_relevant)}\n\nEt voici ce que j'ai trouvé sur Internet : {external_info}\n\nTa question est : {query}")
+        ("system", f"Tu es un assistant super sympa qui aide les enfants à comprendre des choses et répondre à leurs questions. Tu utilises des informations provenant de livres et d'Internet pour donner les meilleures réponses."),
+        ("user", f"L'apprenant se nomme {user_info['name']}, il a {user_info['age']} ans et il est en classe de {user_info['grade']}. Il fréquente l'établissement {user_info['school']}. Voici quelques informations qui pourraient t'aider : {format_docs(docs_relevant)}\n\nEt voici ce que j'ai trouvé sur Internet : {external_info}\n\nTa question est : {query}")
     ])
 
     formatted_prompt = prompt.format_messages(query=query)
@@ -83,6 +87,14 @@ def query_with_external_knowledge(query: str, top_k: int = 3, temperature=0.0, m
 # Interface utilisateur avec gestion de l'état
 def main():
     st.title("Super Assistant pour les Enfants")
+
+    # Sélection de l'apprenant via une liste déroulante
+    name = st.selectbox("Sélectionne un apprenant", apprenants)
+
+    # Renseignement de l'âge, du niveau d'étude et de l'établissement
+    age = st.number_input("Quel âge a l'apprenant ?", min_value=4, max_value=10, value=6)
+    grade = st.selectbox("Quel est le niveau d'étude ?", ['MARTERNELLE', 'CI', 'CP', 'CE1', 'CE2', 'CM1', 'CM2'])
+    school = st.text_input("Dans quelle école l'apprenant est-il inscrit ?", "École primaire")
 
     # Contrôles pour la température et le top_k via la sidebar
     temperature = st.sidebar.slider("Température (pour varier les réponses)", 0.0, 1.0, 0.7)
@@ -102,9 +114,17 @@ def main():
         # Ajouter la question de l'utilisateur dans l'historique
         st.session_state.messages.append({"role": "user", "content": user_input})
 
+        # Rassembler les informations sur l'apprenant
+        user_info = {
+            'name': name,
+            'age': age,
+            'grade': grade,
+            'school': school
+        }
+
         # Lancer la génération de la réponse
         with st.spinner("Je réfléchis à ta question..."):
-            result = query_with_external_knowledge(user_input, top_k=top_k, temperature=temperature, max_tokens=max_tokens)
+            result = query_with_external_knowledge(user_input, user_info=user_info, top_k=top_k, temperature=temperature, max_tokens=max_tokens)
 
         # Ajouter la réponse de l'assistant à l'historique
         st.session_state.messages.append({"role": "assistant", "content": result})
