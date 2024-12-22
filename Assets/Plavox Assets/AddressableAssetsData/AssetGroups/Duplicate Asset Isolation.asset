@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4c681155f626c1d47b733f2bc880e1dc
+  m_SerializeEntries:
+  - m_GUID: 3bd722ebe869d834cb20ef3bfc5e77db
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka-Bold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7806e2c9a3bae60418b0fc81b7c6a7d8
+    m_Address: Assets/Plavox Assets/Artworks/SFX/loser.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ea09ed7f388024d8587480b187a0fb
+    m_Address: Assets/Plavox Assets/Artworks/SFX/victory.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 643fdbbace3dc4948ada2e68e7da91d8
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/Pixel.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 328ba47b690fea149a9856009e69d00c
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/Plavox/Plavox Detailed Logo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f91e44fbe1174b44b0588b3d85993c6
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/refresh (3).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2fe55f8a9c835341b6115569eea770f
+    m_Address: Assets/Plavox Assets/Prefabs/Network Canvas (Portrait).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa8a678bc0b6ab546b319df4e7d5924d
+    m_Address: Assets/Plavox Assets/Prefabs/Network Canvas (Landscape).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c72a3928d5177974c9d669343c216bed
+    m_Address: Assets/Plavox Assets/Prefabs/Lobby Canvas (Portrait).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6ad8e7ecd992f048bdd7cbeb33d9de7
+    m_Address: Assets/Plavox Assets/Prefabs/Lobby Canvas (Landscape).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a24b27efd523240a8defb360e91995
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka-Bold.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68e6db2ebdc24f95958faec2be5558d6
+    m_Address: Assets/Plavox Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcbc35dd6430e0e4886ddb652038862e
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka_Condensed-Bold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe393ace9b354375a9cb14cdbbc28be4
+    m_Address: Assets/Plavox Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2ed0ab4f92074342be5951c86905bec
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka-SemiBold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5414461771f90a64b8ddefd7e7af2004
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka_Condensed-Bold.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf3acd4a9cc7f384692dd46508b63b43
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka-SemiBold.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b63fb62ad79f8b4a92407a2ae0cab60
+    m_Address: Assets/Plavox Assets/Artworks/Animations/Loading icon.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dfe56d2e851a664881077088604ff15
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/Icons/clock.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59bbb87d8b066424187acbe2a7057c3a
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/Icons/wifi.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90af7c04c6596fa4bbf34152751a0644
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka-Medium SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d456d65ce2b41514088dfeadcc10866c
+    m_Address: Assets/Plavox Assets/Artworks/Animations/Loading icon.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66095d579c2a7074db22a26b7a22696d
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka-Medium.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 406319fc5872ae04aadc6ae482c6efcd
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka_SemiCondensed-Bold
+      SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be2b1cd338273741a683b186ab76cb5
+    m_Address: Assets/Plavox Assets/Artworks/Text fonts/Fredoka_SemiCondensed-Bold.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 154ace597f9a6714996f8c54b0594d4e
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/Score_panel.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6cb27e4a055c134f9623506fc7ffbc2
+    m_Address: Assets/Plavox Assets/Artworks/Sprites/Score panel.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41e018a6cf0c896418fc0b89dda748c6
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      magic star hdr ab.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd8a92b47db41f644ae7188f06a986a2
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      magic star mesh.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a29b4d27eb8b04479ef89c00dea533d
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR
+      Particle Ubershader.cfxrshader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 081073d8f2209c949819e1e5872845b3
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      magic star.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7840d900dc0a4ed4dbcd26e23f064dd8
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      smoke cloud x4 ab.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39029f13e4f0bd94493ed939a7feff9c
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      star ab.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a4bd2804b2d1ff46ab18baabfc526da
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      smoke cloud x4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a78b06c58d03f5d4fbb74ba21020241e
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr
+      ring mesh.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e87876b19af3de43947a0cb28d5a578
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      star.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1819aef53deedf40af80257ccb5b1a8
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      smoke cloud x4 dissolve.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1581eccce46ba384596a1dce7936ab19
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR
+      Particle Procedural Ring.cfxrshader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3265ab4bf004d28a9537516768c1c75
+    m_Address: Assets/Plavox Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a81df4963508f8c4e9c854c919c93b67
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      proc ring hdr ab.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67dfcda17071f4a41be79c4049965e67
+    m_Address: Assets/Plavox Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR
+      Particle Glow.cfxrshader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1f8103afbed26224d88bfc9f3fd111c0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fd17538db5e83af40a2d7206bdf42551, type: 2}
+    - {fileID: 11400000, guid: f4b3a51a77565ba4393b71eab7e47d4e, type: 2}
