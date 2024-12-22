@@ -1,0 +1,352 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GameAnimator" preserve="all" />
+    <type fullname="OwlAdventures.Bots.Bot" preserve="all" />
+    <type fullname="OwlAdventures.Cameras.CameraBounds" preserve="all" />
+    <type fullname="OwlAdventures.DestroyOnInvisible" preserve="all" />
+    <type fullname="OwlAdventures.Environment.EnvironmentManager" preserve="all" />
+    <type fullname="OwlAdventures.Hoop" preserve="all" />
+    <type fullname="OwlAdventures.LayerByOwner" preserve="all" />
+    <type fullname="OwlAdventures.Obstacles.Bat" preserve="all" />
+    <type fullname="OwlAdventures.Owl" preserve="all" />
+    <type fullname="OwlAdventures.Players.Player" preserve="all" />
+    <type fullname="OwlAdventures.SceneManager" preserve="all" />
+    <type fullname="OwlAdventures.Scores.ScoreManager" preserve="all" />
+    <type fullname="OwlAdventures.ScreenEvents" preserve="all" />
+    <type fullname="OwlAdventures.Spawning.VerticalSpawner" preserve="all" />
+    <type fullname="OwlAdventures.Utilities.CollisionDetector" preserve="all" />
+    <type fullname="OwlAdventures.Utilities.DisableOnInvisible" preserve="all" />
+    <type fullname="RandomRot" preserve="all" />
+    <type fullname="SpaceOdyssey.BombAndHorizontalDestroyOperation" preserve="all" />
+    <type fullname="SpaceOdyssey.BombAndVerticalDestroyOperation" preserve="all" />
+    <type fullname="SpaceOdyssey.BombOperation" preserve="all" />
+    <type fullname="SpaceOdyssey.Bots.Bot" preserve="all" />
+    <type fullname="SpaceOdyssey.CrossDestroyOperation" preserve="all" />
+    <type fullname="SpaceOdyssey.Frames.Frame" preserve="all" />
+    <type fullname="SpaceOdyssey.Frames.FrameLogic" preserve="all" />
+    <type fullname="SpaceOdyssey.FrameSlot" preserve="all" />
+    <type fullname="SpaceOdyssey.HorizontalDestroyOperation" preserve="all" />
+    <type fullname="SpaceOdyssey.MergeData" preserve="all" />
+    <type fullname="SpaceOdyssey.Patterns.PatternData" preserve="all" />
+    <type fullname="SpaceOdyssey.Planets.Planet" preserve="all" />
+    <type fullname="SpaceOdyssey.Planets.PlanetData" preserve="all" />
+    <type fullname="SpaceOdyssey.Planets.PlanetGenerator" preserve="all" />
+    <type fullname="SpaceOdyssey.Players.PlayerControls" preserve="all" />
+    <type fullname="SpaceOdyssey.SceneManager" preserve="all" />
+    <type fullname="SpaceOdyssey.Scores.ScoreManager" preserve="all" />
+    <type fullname="SpaceOdyssey.Turns.TurnManager" preserve="all" />
+    <type fullname="SpaceOdyssey.Turns.V_Turns" preserve="all" />
+    <type fullname="SpaceOdyssey.VerticalDestroyOperation" preserve="all" />
+    <type fullname="SpaceOdyssey.VFXManager" preserve="all" />
+    <type fullname="TicTacToe.Boards.Board" preserve="all" />
+    <type fullname="TicTacToe.Boards.BoardSlot" preserve="all" />
+    <type fullname="TicTacToe.Bots.Bot" preserve="all" />
+    <type fullname="TicTacToe.Players.Player" preserve="all" />
+    <type fullname="TicTacToe.SceneManager" preserve="all" />
+    <type fullname="TicTacToe.Turns.TurnEvents" preserve="all" />
+    <type fullname="TicTacToe.Turns.TurnManager" preserve="all" />
+    <type fullname="WhoIsTheKing.Boosters.Booster" preserve="all" />
+    <type fullname="WhoIsTheKing.Bots.Bot" preserve="all" />
+    <type fullname="WhoIsTheKing.Bots.BotEyes" preserve="all" />
+    <type fullname="WhoIsTheKing.CameraController" preserve="all" />
+    <type fullname="WhoIsTheKing.Cars.Car" preserve="all" />
+    <type fullname="WhoIsTheKing.Humans.Human" preserve="all" />
+    <type fullname="WhoIsTheKing.Humans.SkinData" preserve="all" />
+    <type fullname="WhoIsTheKing.Players.Player" preserve="all" />
+    <type fullname="WhoIsTheKing.Scenes.SceneManager" preserve="all" />
+    <type fullname="WhoIsTheKing.Scores.ScoreManager" preserve="all" />
+    <type fullname="WhoIsTheKing.Wall" preserve="all" />
+    <type fullname="OwlAdventures.Scores.PlayerScore" preserve="nothing" serialized="true" />
+    <type fullname="TicTacToe.Turns.TurnEvents/ActiveState" preserve="nothing" serialized="true" />
+    <type fullname="WhoIsTheKing.Scenes.SceneManager/StartingState" preserve="nothing" serialized="true" />
+    <type fullname="WhoIsTheKing.Scores.PlayerScore" preserve="nothing" serialized="true" />
+    <type fullname="SpaceOdyssey.Patterns.PatternResultData" preserve="nothing" serialized="true" />
+    <type fullname="SpaceOdyssey.Patterns.V2" preserve="nothing" serialized="true" />
+    <type fullname="SpaceOdyssey.Scores.PlayerScore" preserve="nothing" serialized="true" />
+    <type fullname="SpaceOdyssey.Scores.ScoreManager/ScoreFeedback" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="AstarPathfindingProject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AstarPath" preserve="all" />
+    <type fullname="Pathfinding.AIDestinationSetter" preserve="all" />
+    <type fullname="Pathfinding.AIPath" preserve="all" />
+    <type fullname="Pathfinding.Seeker" preserve="all" />
+    <type fullname="Pathfinding.AstarColor" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.AstarData" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.AutoRepathPolicy" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.EuclideanEmbedding" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.GraphMask" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.StartEndModifier" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="CFXRRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CartoonFX.CFXR_Effect" preserve="all" />
+    <type fullname="CartoonFX.CFXR_Effect/CameraShake" preserve="nothing" serialized="true" />
+    <type fullname="CartoonFX.CFXR_Effect/AnimatedLight" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Checkers, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AIPawnMover" preserve="all" />
+    <type fullname="AIPawnProperties" preserve="all" />
+    <type fullname="AIPawnsGenerator" preserve="all" />
+    <type fullname="Checkers.Boards.Board" preserve="all" />
+    <type fullname="Checkers.BoardSlot" preserve="all" />
+    <type fullname="Checkers.Bots.AITilesGenerator" preserve="all" />
+    <type fullname="Checkers.Bots.CPUPlayer" preserve="all" />
+    <type fullname="Checkers.Bots.MoveTreeBuilder" preserve="all" />
+    <type fullname="Checkers.Bots.PawnClickDetector" preserve="all" />
+    <type fullname="Checkers.Bots.PawnMover" preserve="all" />
+    <type fullname="Checkers.Bots.PawnsGenerator" preserve="all" />
+    <type fullname="Checkers.Bots.TileClickDetector" preserve="all" />
+    <type fullname="Checkers.Bots.TilesGenerator" preserve="all" />
+    <type fullname="Checkers.Bots.TurnHandler" preserve="all" />
+    <type fullname="Checkers.Multiplayer.PawnMover" preserve="all" />
+    <type fullname="Checkers.Multiplayer.Players.Player" preserve="all" />
+    <type fullname="Checkers.Pawn" preserve="all" />
+    <type fullname="Checkers.SceneManager" preserve="all" />
+    <type fullname="Checkers.SlotHighlight" preserve="all" />
+    <type fullname="Checkers.SlotHighlighter" preserve="all" />
+    <type fullname="Checkers.Turns.TurnEvents" preserve="all" />
+    <type fullname="Checkers.Turns.TurnManager" preserve="all" />
+    <type fullname="GameAudio" preserve="all" />
+    <type fullname="MoveChecker" preserve="all" />
+    <type fullname="PawnMoveValidator" preserve="all" />
+    <type fullname="PawnProperties" preserve="all" />
+    <type fullname="PromotionChecker" preserve="all" />
+    <type fullname="TileGetter" preserve="all" />
+    <type fullname="TileProperties" preserve="all" />
+    <type fullname="Checkers.Turns.TurnEvents/ActiveState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Chess, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Chess.AISettings" preserve="all" />
+    <type fullname="Chess.Game.BoardTheme" preserve="all" />
+    <type fullname="Chess.Game.BoardUI" preserve="all" />
+    <type fullname="Chess.Game.ChessManager" preserve="all" />
+    <type fullname="Chess.Game.Clock" preserve="all" />
+    <type fullname="Chess.Game.PieceTheme" preserve="all" />
+    <type fullname="Chess.SceneManager" preserve="all" />
+    <type fullname="Chess.Turns.TurnEvents" preserve="all" />
+    <type fullname="V_FoodItem" preserve="all" />
+    <type fullname="V_FoodLister" preserve="all" />
+    <type fullname="Chess.Game.BoardTheme/SquareColours" preserve="nothing" serialized="true" />
+    <type fullname="Chess.Game.PieceTheme/PieceSprites" preserve="nothing" serialized="true" />
+    <type fullname="Chess.Search/SearchDiagnostics" preserve="nothing" serialized="true" />
+    <type fullname="Chess.Turns.TurnEvents/ActiveState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="DanceArena, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DanceArena.Bots.Bot" preserve="all" />
+    <type fullname="DanceArena.Djs.Animation.DjSkin" preserve="all" />
+    <type fullname="DanceArena.Djs.Dj" preserve="all" />
+    <type fullname="DanceArena.Djs.Drum" preserve="all" />
+    <type fullname="DanceArena.Games.SceneManager" preserve="all" />
+    <type fullname="DanceArena.Notes.Note" preserve="all" />
+    <type fullname="DanceArena.Notes.NoteSpawner" preserve="all" />
+    <type fullname="DanceArena.Players.Player" preserve="all" />
+    <type fullname="DanceArena.Scores.ScoreManager" preserve="all" />
+    <type fullname="DanceArena.Djs.Animation.HandAnimation" preserve="nothing" serialized="true" />
+    <type fullname="DanceArena.Notes.NoteSpawner/Disk" preserve="nothing" serialized="true" />
+    <type fullname="DanceArena.Scores.PlayerScore" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="EvilBats, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BackgroundManager" preserve="all" />
+    <type fullname="BotTomatoDestroyOnVisible" preserve="all" />
+    <type fullname="CameraController" preserve="all" />
+    <type fullname="Clouds" preserve="all" />
+    <type fullname="DelayedCall" preserve="all" />
+    <type fullname="DestroyOnInvisible" preserve="all" />
+    <type fullname="EvilBats.BatDeathAnimation" preserve="all" />
+    <type fullname="EvilBats.BotController" preserve="all" />
+    <type fullname="EvilBats.BotSlingshotController" preserve="all" />
+    <type fullname="EvilBats.LevelManager" preserve="all" />
+    <type fullname="EvilBats.LogBouncer" preserve="all" />
+    <type fullname="EvilBats.PatternManager" preserve="all" />
+    <type fullname="EvilBats.SceneManager" preserve="all" />
+    <type fullname="EvilBats.Scores.ScoreManager" preserve="all" />
+    <type fullname="EvilBats.SlingshotAmmo" preserve="all" />
+    <type fullname="EvilBats.SlingshotController" preserve="all" />
+    <type fullname="EvilBats.SpawnPrefabs" preserve="all" />
+    <type fullname="EvilBats.TargetCollision" preserve="all" />
+    <type fullname="EvilBats.Scores.PlayerScore" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="JoystickPack, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DynamicJoystick" preserve="all" />
+    <type fullname="FixedJoystick" preserve="all" />
+  </assembly>
+  <assembly fullname="JumpingBalls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BallAnimation" preserve="all" />
+    <type fullname="JumpingBalls.BallLauncher" preserve="all" />
+    <type fullname="JumpingBalls.BotController" preserve="all" />
+    <type fullname="JumpingBalls.CameraBounds" preserve="all" />
+    <type fullname="JumpingBalls.CameraFollow" preserve="all" />
+    <type fullname="JumpingBalls.LevelGenerator" preserve="all" />
+    <type fullname="JumpingBalls.Platform" preserve="all" />
+    <type fullname="JumpingBalls.Player" preserve="all" />
+    <type fullname="JumpingBalls.SceneManager" preserve="all" />
+    <type fullname="JumpingBalls.ScorpioMovement" preserve="all" />
+    <type fullname="JumpingBalls.TimerVisual" preserve="all" />
+  </assembly>
+  <assembly fullname="MoleBuster, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MoleBuster.Bot" preserve="all" />
+    <type fullname="MoleBuster.Mole" preserve="all" />
+    <type fullname="MoleBuster.MoleSpawner" preserve="all" />
+    <type fullname="MoleBuster.Players.Player" preserve="all" />
+    <type fullname="MoleBuster.Scores.ScoreManager" preserve="all" />
+    <type fullname="MoleBuster.Scores.ScoreManager/Score" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="NinjaRunner, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="NinjaRunner.BackGroundController" preserve="all" />
+    <type fullname="NinjaRunner.BotCheckWhenToJump" preserve="all" />
+    <type fullname="NinjaRunner.BotJump" preserve="all" />
+    <type fullname="NinjaRunner.CameraMechanics" preserve="all" />
+    <type fullname="NinjaRunner.ChangePlayerColor" preserve="all" />
+    <type fullname="NinjaRunner.CoinMechanics" preserve="all" />
+    <type fullname="NinjaRunner.JumpEffect" preserve="all" />
+    <type fullname="NinjaRunner.ObstacleMechanics" preserve="all" />
+    <type fullname="NinjaRunner.ObstacleMovement" preserve="all" />
+    <type fullname="NinjaRunner.ObstacleSpawner" preserve="all" />
+    <type fullname="NinjaRunner.PlayerHitMechanics" preserve="all" />
+    <type fullname="NinjaRunner.PlayerMovement" preserve="all" />
+    <type fullname="NinjaRunner.SceneManager" preserve="all" />
+    <type fullname="NinjaRunner.Scores.ScoreManager" preserve="all" />
+    <type fullname="NinjaRunner.SpawnPlayers" preserve="all" />
+    <type fullname="NinjaRunner.SpikeMechanics" preserve="all" />
+    <type fullname="NinjaRunner.Timer" preserve="all" />
+    <type fullname="NinjaRunner.Scores.PlayerScore" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Photon.Pun.PhotonRigidbody2DView" preserve="all" />
+    <type fullname="Photon.Pun.PhotonTransformView" preserve="all" />
+    <type fullname="Photon.Pun.PhotonView" preserve="all" />
+  </assembly>
+  <assembly fullname="PlavoxGame, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ConcludeResults" preserve="all" />
+    <type fullname="CoreUiInstantiater" preserve="all" />
+    <type fullname="ExampleGame.Views.V_GameEnd" preserve="all" />
+    <type fullname="GameEntryPoint" preserve="all" />
+    <type fullname="GameManager" preserve="all" />
+    <type fullname="LagScreen" preserve="all" />
+    <type fullname="PhotonManager" preserve="all" />
+    <type fullname="RemoteAssetHolder" preserve="all" />
+    <type fullname="RemoteAudioClipHolder" preserve="all" />
+    <type fullname="SoundManager" preserve="all" />
+    <type fullname="V_Lobby" preserve="all" />
+    <type fullname="MultiplayerGameParams" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Racing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="RacingCars.Bot" preserve="all" />
+    <type fullname="RacingCars.Cameras.CameraBounds" preserve="all" />
+    <type fullname="RacingCars.Car" preserve="all" />
+    <type fullname="RacingCars.Players.Player" preserve="all" />
+    <type fullname="RacingCars.Players.PlayerJoystick" preserve="all" />
+    <type fullname="RacingCars.SceneManager" preserve="all" />
+    <type fullname="RacingCars.Scores.ScoreManager" preserve="all" />
+    <type fullname="RacingCars.ScreenEvents" preserve="all" />
+    <type fullname="RacingCars.Players.CarSkin" preserve="nothing" serialized="true" />
+    <type fullname="RacingCars.Scores.PlayerScore" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.EdgeCollider2D" preserve="all" />
+    <type fullname="UnityEngine.PhysicsMaterial2D" preserve="all" />
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
