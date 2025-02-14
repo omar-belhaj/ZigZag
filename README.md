@@ -1,8 +1,11 @@
-# ZigZag : Application éducative basée sur l'IA générative
+# ZigZag : Learn Smart, Teach Smart !
 
-![logo](Logo.png)
+<p align="center">
+  <img src="Logo.png" alt="Logo" width="250">
+</p>
 
-ZigZag est une application innovante combinant intelligence artificielle et éducation. Elle propose une double interface :
+
+ZigZag est une application innovante combinant intelligence artificielle générative et l'éducation. Elle propose une double interface :
 
 - **Pour les enfants** : Des jeux interactifs et adaptés à leur âge pour stimuler l’apprentissage tout en identifiant leurs forces et faiblesses (difficultés d’apprentissage, dyslexie, etc.).
 - **Pour les éducateurs** : Un assistant virtuel dédié qui analyse les données des enfants et fournit des conseils personnalisés ainsi que des méthodes pédagogiques optimisées.
