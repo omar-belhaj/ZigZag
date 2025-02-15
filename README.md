@@ -5,95 +5,94 @@
 </p>
 
 
-ZigZag est une application innovante combinant intelligence artificielle générative et l'éducation. Elle propose une double interface :
+ZigZag is an innovative application that combines generative artificial intelligence with education. It offers a dual-interface system:
 
-- **Pour les enfants** : Des jeux interactifs et adaptés à leur âge pour stimuler l’apprentissage tout en identifiant leurs forces et faiblesses (difficultés d’apprentissage, dyslexie, etc.).
-- **Pour les éducateurs** : Un assistant virtuel dédié qui analyse les données des enfants et fournit des conseils personnalisés ainsi que des méthodes pédagogiques optimisées.
+- **For children** : Interactive, age-appropriate games that stimulate learning while identifying strengths and weaknesses (learning difficulties, dyslexia, etc.).
+- **For educators** : A dedicated virtual assistant that analyzes children's data and provides personalized advice along with optimized teaching methods.
 
-## 🌟 Objectifs du projet
+## 🌟 Objectives
 
-### Aider les enfants
-- Offrir des contenus éducatifs adaptés à chaque enfant.
-- Respecter les normes de temps d’écran recommandées par l’OMS (30 minutes/jour maximum).
+### Helping children
+- Provide educational content tailored to each child.
+- Adhere to WHO’s recommended screen time guidelines (maximum 30 minutes per day).
 
-### Soutenir les éducateurs
-- Fournir des conseils pédagogiques personnalisés basés sur les données collectées.
-- Intégrer des documents pédagogiques adaptés.
+### Supporting educators
+- Deliver personalized teaching advice based on collected data.
+- Integrate suitable educational materials.
 
-### Gagner en efficacité
-- Réduire la charge de travail des éducateurs.
-- Optimiser les ressources dans les crèches et écoles.
+### Enhancing efficiency
+- Reduce educators’ workload.
+- Optimize resources in nurseries and schools.
 
-## 🔀 Fonctionnalités
+## 🔀 Features
 
-### Pour les enfants :
-- **Jeux éducatifs personnalisés** :
-  - *Wordsearch* : Recherche de mots adaptée au niveau de difficulté.
-  - *Équations mathématiques* : Générées dynamiquement pour s’adapter à chaque enfant.
-- **Suivi et analyse** :
-  - Collecte de données sur les performances pour identifier les problèmes d’apprentissage.
+### For children :
+- **Personalized educational games** :
+  - *Wordsearch* : Customized word search puzzles based on difficulty level.
+  - *Mathematical equations* : Dynamically generated equations tailored to each child's ability.
+- **Tracking and analysis** :
+  - Data collection on performance to identify learning difficulties.
 
-### Pour les éducateurs :
-- **Chatbot pédagogique** :
-  - Conseils sur les méthodes d’enseignement adaptées à chaque enfant.
-  - Analyse des progrès et des besoins individuels.
-- **Rapports détaillés** :
-  - Visualisation des données des enfants pour un meilleur suivi.
+### For educators :
+- **Educational chatbot** :
+  - Provides advice on teaching methods tailored to each child.
+  - Analyzes progress and individual needs.
+- **Detailed reports** :
+  - Data visualization for improved child monitoring.
 
-## 💻 Technologies utilisées
+## 💻 Technologies Used
 
 ### Frontend :
-- Unity pour l’interface des jeux éducatifs.
+- Unity for educational games interfaces.
 
 ### Backend :
-- API OpenAI (GPT-4 pour le chatbot, DALL-E pour la génération d’images).
-- ASP.NET Core pour la gestion des données et des interactions.
+- API OpenAI (GPT-4 for chatbot, DALL-E for image generation).
+- ASP.NET Core for data management and interactions.
 - SocketIO.
 - Docker.
 
-## 📦 Installation et exécution
+## 📦 Installation & Execution
 
-### Prérequis :
-- .NET SDK 6.0 ou supérieur.
-- Unity installé sur votre machine.
-- Clé API OpenAI (à renseigner dans un fichier `.env`).
+### Prerequisites :
+- .NET SDK 6.0 or later.
+- Unity installed on your machine.
+- OpenAI API Key (to be added in a `.env` file).
 
-### Étapes :
+### Steps :
 
-1. Clonez le projet :
+1. Clone the projet :
    ```bash
    git clone https://github.com/omar-belhaj/CoddsCoders.git
    cd CoddsCoders
    ```
-2. Configurez la clé API OpenAI :
-   - Créez un fichier `.env` à la racine et ajoutez :
+2. Configure the OpenAI API key: :
+   - Create a `.env` file in the root directory and add: :
      ```
      OPENAI_API_KEY=your-api-key
      ```
 
-## 🚀 Déploiement avec Docker
+## 🚀 Deployment with Docker
 
-### 1. Construire et Déployer une Image Docker pour l'Application ZigZag
-L'objectif est de créer une interface Streamlit du chatbot pour l'application ZigZag et de la déployer sur Google Cloud Platform (GCP).
+### 1. Build & deploy a Docker image for ZigZag
+The goal is to create a Streamlit chatbot interface for ZigZag and deploy it on Google Cloud Platform (GCP).
 
-### 1.1 Tests Locaux
+### 1.1 Local testing
 
-#### **A. Créer et Tester l'Application Streamlit Localement**
-1. Créez un fichier `app.py` contenant le code de l'application Streamlit.
-2. Lancez l'application localement :
+#### **A. Create & test the Streamlit application locally**
+1. Create an `app.py` file containing the Streamlit application code..
+2. Run the application locally :
    ```bash
    streamlit run app.py
    ```
 
-#### **B. Construire l'Image Docker**
-1. Assurez-vous que le `Dockerfile` est bien configuré.
-2. Construisez une image Docker :
+#### **B. Build the Docker image**
+1. Ensure the `Dockerfile` is properly configured.
+2. Build a Docker image :
    ```bash
    docker build -t streamlit:zigzag .
    docker run --name zigzag_chatbot -p 8502:8501 streamlit:zigzag
    ```
-
-3. Pour arrêter et relancer le conteneur :
+3. To stop and restart the container :
    ```bash
    docker stop zigzag_chatbot
    docker rm zigzag_chatbot
@@ -102,19 +101,19 @@ L'objectif est de créer une interface Streamlit du chatbot pour l'application Z
 
 ## 📊 Business Model
 
-L’application fonctionne sur un modèle d’abonnement mensuel :
-- **Pour les crèches et écoles** : Facturation basée sur le nombre d’enfants et d’éducateurs.
-- **Avantages pour les établissements** :
-  - Gain de temps et d’efficacité pour les éducateurs.
-  - Meilleur suivi des enfants en difficulté.
+The application operates on a monthly subscription model :
+- **For nurseries & schools** : Pricing is based on the number of children and educators.
+- **Benefits for institutions** :
+  - Saves time and enhances efficiency for educators.
+  - Improves monitoring of children with learning difficulties.
 
 ## 🛠 Contributions
 
-Les contributions sont les bienvenues ! Veuillez ouvrir une *issue* ou soumettre une *pull request* pour toute amélioration ou suggestion.
+Contributions are welcome ! Please open an *issue* or submit a *pull request* for any improvements or suggestions.
 
 ## 🌐 Contact
 
-Pour toute question ou demande de partenariat, contactez-nous :
+For any inquiries or partnership requests, contact us :
 
 - 📧 Email :
   - gatti.aziz55@gmail.com
@@ -123,4 +122,4 @@ Pour toute question ou demande de partenariat, contactez-nous :
   - rodrigue.migniha@dauphine.tn
   - adamfatnassi110@gmail.com
   - omarbelhadj220@gmail.com
-- 🌍 GitHub : [ZigZag](https://github.com/omar-belhaj/CoddsCoders)
+- 🌍 GitHub : [ZigZag](https://github.com/omar-belhaj/ZigZag)
